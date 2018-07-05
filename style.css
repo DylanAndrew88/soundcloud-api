@@ -6,43 +6,45 @@
   /*Main-Header*/
 
   .main-header {
-    width: 100vw;
     font-family: 'Righteous', cursive;
     color: #982020;
-    text-shadow: 2px 2px black;
+    text-shadow: .15rem .15rem black;
     margin: auto;
+    justify-content: center;
     background-color: #E3C376;
+    width: 29rem;
   }
 
   .header1 {
     display: flex;
-    width: 30vw;
-    margin-left: 34vw;
+    width: 29rem;
+    justify-content: center;
   }
 
   .main-title {
-    font-size: 6vw;
-    width: 30vw;
-    margin-top: 3.5vw;
+    font-size: 5rem;
+    width: 18.5rem;
+    margin-top: 3.6rem;
     margin-bottom: 0px;
   }
 
   .logo {
-    width: 9vw;
-    height: 9vw;
-    margin-top: 1.75vw;
-    margin-left: .5vw;
+    width: 8.9rem;
+    height: 8.8rem;
+    margin-top: 1rem;
+    margin-left: .3rem;
   }
 
   .sub-title {
-    width: 30vw;
+    width: 30rem;
     text-align: center;
-    font-size: 1.7vw;
+    font-size: 1.6rem;
     font-family: 'Lobster', cursive;
     color: #DB5825;
-    text-shadow: 1px 1px black;
-    margin-left: 33.5vw;
+    text-shadow: .05rem .05rem black;
     margin-top: -8px;
+    justify-content: center;
+    margin-left: -1rem;
   }
 
 
@@ -80,8 +82,8 @@
     border: .15vw #553619 solid;
     border-radius: 10%;
     margin-top: 20px;
+    margin-bottom: 20px;
     outline: none;
-    margin-bottom: 12%;
     cursor: pointer;
   }
 
@@ -97,37 +99,39 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 85vw;
+    width: 75vw;
     margin: auto;
+    margin-bottom: 190px;
+    justify-content: space-between;
   }
 
   .results {
-    width: 25vw;
-    height: 270px;
+    height: 21vw;
+    width: 20vw;
     margin-top: 20px;
     margin-bottom: 30px;
-    margin-right: 1%;
-    margin-left: 1%;
+    margin-right: 1vw;
+    margin-left: 1vw;
     padding-top: 20px;
     text-align: center;
     background-image: url('leather-background.jpg');
     background-size: cover;
     border-radius: 5%;
-    border: 4px dashed #F3D217;
+    border: .20vw dashed #F3D217;
     cursor: pointer;
     box-shadow: .5vw .5vw .5vw #3F3F3F;
   }
 
   .results p {
-    width: 22vw;
-    font-size: 18px;
+    width: 15vw;
+    font-size: 1.3vw;
     overflow: hidden;
     white-space: nowrap;
+    text-overflow: ellipsis;
     margin-left: 20px;
     display: block;
     font-family: 'Poppins', cursive;
     color: #E6E6E6;
-    font-weight: bold;
     padding-left: 5px;
     margin-top: 10px;
     text-align: left;
@@ -139,18 +143,40 @@
     margin: auto;
     border: 3px solid #D8AE0E;
     box-shadow: 2px 2px black;
-    width: 80px;
+    width: 10vw;
     margin-bottom: 10px;
     cursor: pointer;
   }
 
   .title {
     padding-left: 20px;
+    margin-bottom: 0px;
   }
 
   .userName {
     margin-bottom: 20px;
     padding-left: 20px;
+  }
+
+  #play-button {
+    background-color: #EE860C;
+    color: white;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: 'Lobster', cursive;
+    font-size: 1.2vw;
+    border: .15vw solid white;
+    border-radius: 10%;
+    outline: none;
+    cursor: pointer;
+  }
+
+  #play-button:hover {
+    background-color: white;
+    color: #EE860C;
+    border: .15vw solid black;
   }
 
 
