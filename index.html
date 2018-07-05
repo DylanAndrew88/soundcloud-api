@@ -1,0 +1,38 @@
+
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Jukebox Hero - A Soundcloud Music Player</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Lobster|Patua+One|Poppins|Righteous" rel="stylesheet">
+    </head>
+    <body>
+      <div class="main-header">
+        <div class="header1">
+          <h1 class="main-title">Jukebox</h1>
+          <img class="logo" src="Jukebox-Logo.png">
+        </div>
+        <div class="header2">
+          <h2 class="sub-title">A music player powered by SoundCloud</h2>
+        </div>
+      </div>
+
+      <div class="search">
+        <input id="submission" type="text" placeholder="Search a Song or Artist">
+        <button class="search-button" value="something" onclick="searchTracks()">Rock On</button>
+      </div>
+
+      <div id="resultsPlaceholder">
+      </div>
+
+      <div id="playerPlaceholder">
+        <img id="player-art" src="music-placeholder.png">
+        <p id="player-name">unknown</p>
+        <audio id="music-player" controls="controls" src=""></audio>
+      </div>
+
+      <script src="https://api.soundcloud.com/tracks?client_id=8538a1744a7fdaa59981232897501e04"></script>
+      <script src="main.js"></script>
+    </body>
+  </html>
