@@ -17,7 +17,6 @@
               <p class="title">${data[i].title}</p>
               <p class="userName">${data[i].user.username}</p>
               <button id="play-button" value="${data[i].id}" onclick="playTrack()">Play</button>
-              <p class="track-id">${data[i].id}</p>
             </div>
         `
         resultsPlaceholder.innerHTML += markup;
