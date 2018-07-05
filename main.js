@@ -25,6 +25,14 @@
     })
   };
 
+  /*Event Listener on Enter for searchTracks()*/
+  submission.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+      document.getElementById("search-button").click();
+    }
+  });
+
   function playTrack() {
     let id = event.target.value;
     let clientID = '?client_id=8538a1744a7fdaa59981232897501e04';

@@ -70,7 +70,7 @@
     color: #553619;
   }
 
-  .search-button {
+  #search-button {
     background-color: #EE860C;
     color: white;
     padding-top: 1%;
@@ -87,7 +87,7 @@
     cursor: pointer;
   }
 
-  .search-button:hover {
+  #search-button:hover {
     font-size: 1.4vw;
     border: .20vw #553619 solid;
   }
@@ -109,8 +109,8 @@
     width: 20vw;
     margin-top: 20px;
     margin-bottom: 30px;
-    margin-right: 1vw;
-    margin-left: 3.5vw;
+    margin-right: 2.25vw;
+    margin-left: 2.25vw;
     padding-top: 20px;
     text-align: center;
     background-image: url('leather-background.jpg');
@@ -194,7 +194,7 @@
 
   #player-art {
     width: 150px;
-    border: .2vw solid white;
+    border: .3vw solid white;
   }
 
   #player-name {
