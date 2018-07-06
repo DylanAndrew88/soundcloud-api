@@ -105,7 +105,7 @@
   }
 
   .results {
-    height: 18.7rem;
+    height: 18.8rem;
     width: 17rem;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -122,28 +122,27 @@
   }
 
   .results p {
-    width: 17vw;
-    font-size: 1.3vw;
+    width: 15rem;
+    font-size: 1.15rem;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    margin-left: 20px;
+    margin-left: .2rem;
     display: block;
     font-family: 'Fredoka One', sans-serif;
     letter-spacing: .1rem;
     color: #FFD91D;
-    padding-left: 5px;
-    margin-top: 10px;
+    margin-top: .4rem;
     text-align: left;
-    text-shadow: 2px 2px black;
+    text-shadow: .12rem .12rem black;
   }
 
   .track-art {
     border-radius: 100%;
     margin: auto;
-    border: 3px solid #DEDEDE;
-    box-shadow: 2px 2px black;
-    width: 10vw;
+    border: .15rem solid #DEDEDE;
+    box-shadow: .12rem .12rem black;
+    width: 9rem;
     margin-bottom: 10px;
     cursor: pointer;
   }
@@ -183,7 +182,7 @@
   }
 
   #play-button:hover {
-    background-color: #DB7B0B;
+    background-color: #0C18D4;
     color: white;
     border: .15vw solid white;
   }
