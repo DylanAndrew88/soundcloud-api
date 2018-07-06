@@ -5,37 +5,37 @@
 
   /*Main-Header*/
 
-  .main-header {
-    font-family: 'Righteous', cursive;
+  #main-header {
     color: #982020;
-    text-shadow: .15rem .15rem black;
     margin: auto;
     justify-content: center;
     background-color: #E3C376;
     width: 29rem;
   }
 
-  .header1 {
+  #header1 {
     display: flex;
     width: 29rem;
     justify-content: center;
   }
 
-  .main-title {
+  #main-title {
+    font-family: 'Righteous', cursive;
     font-size: 5rem;
+    text-shadow: .15rem .15rem black;
     width: 18.5rem;
     margin-top: 3.6rem;
     margin-bottom: 0px;
   }
 
-  .logo {
+  #logo {
     width: 8.9rem;
     height: 8.8rem;
     margin-top: 1rem;
     margin-left: .3rem;
   }
 
-  .sub-title {
+  #sub-title {
     width: 30rem;
     text-align: center;
     font-size: 1.6rem;
@@ -50,7 +50,7 @@
 
   /*Search*/
 
-  .search {
+  #search {
     text-align: center;
     margin: auto;
     margin-top: 150px;
@@ -122,15 +122,16 @@
   }
 
   .results p {
-    width: 15vw;
+    width: 17vw;
     font-size: 1.3vw;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     margin-left: 20px;
     display: block;
-    font-family: 'Poppins', cursive;
-    color: #E6E6E6;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: .1rem;
+    color: #FFD91D;
     padding-left: 5px;
     margin-top: 10px;
     text-align: left;
