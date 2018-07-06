@@ -18,7 +18,7 @@
           document.getElementById('search').style.width = "40rem";
           document.getElementById('search').style.marginLeft = "30rem";
           document.getElementById('submission').style.display = "inline";
-          document.getElementById('submission').style.width = "30rem";
+          document.getElementById('submission').style.width = "25rem";
           document.getElementById('submission').style.fontSize = "1.7rem";
           document.getElementById('submission').style.marginLeft = "-5rem";
           document.getElementById('submission').style.marginRight = ".7rem";

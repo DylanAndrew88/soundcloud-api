@@ -116,7 +116,7 @@
     background-image: url('leather-background.jpg');
     background-size: cover;
     border-radius: 5%;
-    border: .20vw dashed #F3D217;
+    border: .21rem dashed #F3D217;
     cursor: pointer;
     box-shadow: .5vw .5vw .5vw #3F3F3F;
   }
@@ -129,7 +129,7 @@
     text-overflow: ellipsis;
     margin-left: 20px;
     display: block;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Fredoka One', sans-serif;
     letter-spacing: .1rem;
     color: #FFD91D;
     padding-left: 5px;
@@ -147,6 +147,15 @@
     margin-bottom: 10px;
     cursor: pointer;
   }
+
+  .track-art:hover {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+  }
+  @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+  @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+  @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
   .title {
     padding-left: 20px;
@@ -176,7 +185,7 @@
   #play-button:hover {
     background-color: white;
     color: #EE860C;
-    border: .15vw solid black;
+    border: .15vw solid white;
   }
 
 
