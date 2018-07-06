@@ -57,7 +57,7 @@
   }
 
   #submission {
-    width: 50vw;
+    width: 40rem;
     display: block;
     margin: auto;
     text-align: center;
@@ -66,7 +66,7 @@
     border-bottom: .35vw dashed white;
     outline: none;
     font-family: 'Lobster', cursive;
-    font-size: 2.75vw;
+    font-size: 2.7rem;
     color: #553619;
   }
 
@@ -183,31 +183,34 @@
 
   #playerPlaceholder {
     display: flex;
-    width: 100vw;
     position:fixed;
     bottom:0;
     margin: auto;
     background-color: black;
     margin-left: -8px;
-    height: 140px;
+    height: 125px;
+    width: 100vw;
   }
 
   #player-art {
-    width: 150px;
-    border: .3vw solid white;
+    width: 125px;
+    border: .4vw solid white;
+    background-color: #E3C376;
   }
 
   #player-name {
+    margin: auto;
     width: 25vw;
-    margin-top: 50px;
     color: white;
-    font-size: 17px;
-    margin-left: 1.5vw;
+    font-size: 18px;
+    margin-left: 1.7vw;
     margin-right: 2vw;
     font-style: italic;
   }
 
   #music-player {
-    margin-top: 45px;
-    margin-left: -.75vw;
+    width: 17rem;
+    margin-top: 40px;
+    justify-content: center;
+    margin-left: 1.5rem;
   }
