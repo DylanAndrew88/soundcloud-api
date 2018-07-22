@@ -3,7 +3,7 @@
     background-color: #E3C376;
   }
 
-  /*Main-Header*/
+  /*Header*/
 
   #main-header {
     color: #982020;
@@ -93,7 +93,7 @@
   }
 
 
-  /*Results-Placeholder*/
+  /*Results*/
 
   #resultsPlaceholder {
     display: flex;
@@ -174,7 +174,7 @@
     padding-left: 3%;
     padding-right: 3%;
     font-family: 'Lobster', cursive;
-    font-size: 1.5vw;
+    font-size: 1.3rem;
     border: .15vw solid white;
     border-radius: 15%;
     outline: none;
@@ -188,7 +188,7 @@
   }
 
 
-  /*Player-Placeholder*/
+  /*Player*/
 
   #playerPlaceholder {
     display: flex;
@@ -202,18 +202,18 @@
   }
 
   #player-art {
-    width: 125px;
-    border: .4vw solid white;
+    width: 130px;
+    border: .1rem solid white;
     background-color: #E3C376;
   }
 
   #player-name {
     margin: auto;
-    width: 25vw;
+    width: 21.5rem;
     color: white;
-    font-size: 18px;
-    margin-left: 1.7vw;
-    margin-right: 2vw;
+    font-size: 22px;
+    margin-left: 2rem;
+    margin-right: 2rem;
     font-style: italic;
   }
 
@@ -221,5 +221,69 @@
     width: 17rem;
     margin-top: 40px;
     justify-content: center;
-    margin-left: 1.5rem;
+    margin-left: 2rem;
+  }
+
+
+  /*IPad Pro Responsive (1024px)*/
+
+  @media screen and (max-width: 1024px) and (min-width: 768px) {
+
+    body {
+      width: 1092px;
+    }
+
+    /*Search*/
+
+    #submission {
+      width: 45rem;
+      border-bottom: .37rem dashed white;
+      font-size: 3.3rem;
+    }
+
+    #search-button {
+      font-size: 1.5rem;
+      border: .18rem #553619 solid;
+      outline: none;
+      cursor: pointer;
+    }
+
+    #search-button:hover {
+      font-size: 1.30rem;
+      border: .20rem #553619 solid;
+    }
+
+    /*Results*/
+
+    #resultsPlaceholder {
+      margin-left: 1em;
+    }
+
+    #play-button {
+      font-size: 1.5rem;
+    }
+
+    /*Player*/
+
+    #playerPlaceholder {
+      height: 160px;
+      width: 1124px;
+    }
+
+    #player-art {
+      width: 160px;
+      background-color: #E3C376;
+    }
+
+    #player-name {
+      font-size: 24px;
+      width: 15rem;
+      margin-right: 0px;
+    }
+
+    #music-player {
+      width: 17rem;
+      margin-top: 55px;
+      justify-content: center;
+    }
   }
