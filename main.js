@@ -15,14 +15,15 @@
           }
           document.getElementById('main-header').style.float = "left";
           document.getElementById('main-header').style.marginTop = "-7.5rem";
-          document.getElementById('main-header').style.marginLeft = "2rem";
+          document.getElementById('main-header').style.marginLeft = "4rem";
           document.getElementById('search').style.width = "40rem";
-          document.getElementById('search').style.marginLeft = "30rem";
+          document.getElementById('search').style.marginLeft = "35rem";
           document.getElementById('submission').style.display = "inline";
           document.getElementById('submission').style.width = "25rem";
-          document.getElementById('submission').style.fontSize = "2.1rem";
+          document.getElementById('submission').style.fontSize = "2.5rem";
           document.getElementById('submission').style.marginLeft = "-5rem";
           document.getElementById('submission').style.marginRight = ".7rem";
+          document.getElementById('search-button').style.fontSize = "1.5rem";
           document.getElementById('resultsPlaceholder').style.marginTop = "5rem";
           let markup = `
             <div class="results">
