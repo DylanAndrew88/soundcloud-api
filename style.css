@@ -273,13 +273,13 @@
     }
 
     #player-name {
-      font-size: 24px;
-      width: 15rem;
+      font-size: 27px;
+      width: 17rem;
       margin-right: 0px;
     }
 
     #music-player {
-      width: 17rem;
+      width: 18rem;
       margin-top: 55px;
     }
   }
@@ -341,9 +341,51 @@
     /*Results*/
 
     #resultsPlaceholder {
+      justify-content: center;
       margin-left: 3.3em;
+      width: 68rem;
+    }
+
+    .results {
+    width: 40rem;
+    height: 27.5rem;
+    border: .4rem dashed #F3D217;
+    margin-bottom: 40px;
+    }
+
+    .results p {
+      width: 35rem;
+      font-size: 2rem;
+    }
+
+    .track-art {
+      width: 14rem;
     }
 
     #play-button {
-      font-size: 1.5rem;
+      font-size: 2.2rem;
     }
+
+
+    /*Player*/
+
+    #playerPlaceholder {
+      height: 200px;
+    }
+
+    #player-art {
+      width: 200px;
+      background-color: #E3C376;
+    }
+
+    #player-name {
+      font-size: 34px;
+      width: 20rem;
+      margin-right: 0px;
+    }
+
+    #music-player {
+      width: 21rem;
+      margin-top: 75px;
+    }
+  }
