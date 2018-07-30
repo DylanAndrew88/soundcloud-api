@@ -211,7 +211,7 @@
     margin: auto;
     width: 21.5rem;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     margin-left: 2rem;
     margin-right: 2rem;
     font-style: italic;
@@ -236,17 +236,17 @@
     /*Search*/
 
     #submission {
-      width: 45rem;
-      border-bottom: .37rem dashed white;
-      font-size: 3.3rem;
+      width: 50rem;
+      border-bottom: .45rem dashed white;
+      font-size: 3.5rem;
     }
 
     #search-button {
-      font-size: 1.5rem;
+      font-size: 1.75rem;
     }
 
     #search-button:hover {
-      font-size: 1.6rem;
+      font-size: 1.9rem;
     }
 
 
@@ -256,31 +256,43 @@
       margin-left: 3em;
     }
 
+    .results {
+      height: 23.5rem;
+    }
+
+    .results p {
+      font-size: 1.7rem;
+    }
+
+    .track-art {
+      width: 12rem;
+    }
+
     #play-button {
-      font-size: 1.5rem;
+      font-size: 1.9rem;
     }
 
 
     /*Player*/
 
     #playerPlaceholder {
-      height: 160px;
+      height: 175px;
     }
 
     #player-art {
-      width: 160px;
+      width: 175px;
       background-color: #E3C376;
     }
 
     #player-name {
-      font-size: 27px;
+      font-size: 30px;
       width: 17rem;
       margin-right: 0px;
     }
 
     #music-player {
       width: 18rem;
-      margin-top: 55px;
+      margin-top: 65px;
     }
   }
 
@@ -321,20 +333,24 @@
 
     /*Search*/
 
+    #search {
+      margin-top: 12rem;
+    }
 
     #submission {
-      width: 45rem;
-      border-bottom: .50rem dashed white;
-      font-size: 3.7rem;
+      width: 55rem;
+      border-bottom: .65rem dashed white;
+      font-size: 4.5rem;
     }
 
     #search-button {
       margin-top: 2rem;
-      font-size: 1.9rem;
+      font-size: 2.6rem;
+      border: .25rem #553619 solid;
     }
 
     #search-button:hover {
-      font-size: 2rem;
+      font-size: 2.9rem;
     }
 
 
@@ -347,23 +363,24 @@
     }
 
     .results {
-    width: 40rem;
-    height: 27.5rem;
-    border: .4rem dashed #F3D217;
-    margin-bottom: 40px;
+      width: 50rem;
+      height: 39rem;
+      border: .4rem dashed #F3D217;
+      margin-bottom: 40px;
     }
 
     .results p {
       width: 35rem;
-      font-size: 2rem;
+      font-size: 3.5rem;
     }
 
     .track-art {
-      width: 14rem;
+      width: 20rem;
     }
 
     #play-button {
-      font-size: 2.2rem;
+      font-size: 3rem;
+      border: .2rem solid white;
     }
 
 
@@ -379,7 +396,7 @@
     }
 
     #player-name {
-      font-size: 34px;
+      font-size: 37px;
       width: 20rem;
       margin-right: 0px;
     }
