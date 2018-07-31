@@ -209,9 +209,9 @@
 
   #player-name {
     margin: auto;
-    width: 21.5rem;
+    width: 22.4rem;
     color: white;
-    font-size: 20px;
+    font-size: 1.3rem;
     margin-left: 2rem;
     margin-right: 2rem;
     font-style: italic;
@@ -258,6 +258,7 @@
 
     .results {
       height: 23.5rem;
+      border: .25rem dashed #F3D217;
     }
 
     .results p {
@@ -276,23 +277,23 @@
     /*Player*/
 
     #playerPlaceholder {
-      height: 175px;
+      height: 190px;
     }
 
     #player-art {
-      width: 175px;
+      width: 200px;
       background-color: #E3C376;
     }
 
     #player-name {
-      font-size: 30px;
-      width: 17rem;
+      font-size: 1.9rem;
+      width: 24rem;
       margin-right: 0px;
     }
 
     #music-player {
-      width: 18rem;
-      margin-top: 65px;
+      width: 20rem;
+      margin-top: 75px;
     }
   }
 
@@ -364,14 +365,16 @@
 
     .results {
       width: 50rem;
-      height: 39rem;
+      height: 40rem;
       border: .4rem dashed #F3D217;
       margin-bottom: 40px;
+      border: .5rem dashed #F3D217;
     }
 
     .results p {
-      width: 35rem;
+      width: 45rem;
       font-size: 3.5rem;
+      margin-left: 1.5rem;
     }
 
     .track-art {
@@ -379,7 +382,7 @@
     }
 
     #play-button {
-      font-size: 3rem;
+      font-size: 3.6rem;
       border: .2rem solid white;
     }
 
@@ -387,22 +390,22 @@
     /*Player*/
 
     #playerPlaceholder {
-      height: 200px;
+      height: 215px;
     }
 
     #player-art {
-      width: 200px;
+      width: 225px;
       background-color: #E3C376;
     }
 
     #player-name {
-      font-size: 37px;
-      width: 20rem;
+      font-size: 2.2rem;
+      width: 29rem;
       margin-right: 0px;
     }
 
     #music-player {
-      width: 21rem;
-      margin-top: 75px;
+      width: 22rem;
+      margin-top: 85px;
     }
   }
