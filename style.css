@@ -273,6 +273,10 @@
       font-size: 1.9rem;
     }
 
+    #play-button {
+      font-size: 1.9rem;
+    }
+
 
     /*Player*/
 
@@ -382,6 +386,11 @@
     }
 
     #play-button {
+      font-size: 3.6rem;
+      border: .2rem solid white;
+    }
+
+    #play-button:hover {
       font-size: 3.6rem;
       border: .2rem solid white;
     }
